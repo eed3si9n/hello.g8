@@ -2,7 +2,7 @@ lazy val root = (project in file(".")).
   aggregate(app).
   settings(inThisBuild(List(
       organization := "com.example",
-      scalaVersion := "2.11.8"
+      scalaVersion := "$scala_version$"
     ))
   )
 
